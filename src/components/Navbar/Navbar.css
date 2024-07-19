@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #123456; /* A deep, professional blue */
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  height: 60px;
+  box-sizing: border-box;
+  z-index: 11111111;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  color: #27ae60; /* A vibrant, chemistry-related green */
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.logo {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #27ae60;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-link {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #27ae60;
+    margin-left: 0;
+  }
+}

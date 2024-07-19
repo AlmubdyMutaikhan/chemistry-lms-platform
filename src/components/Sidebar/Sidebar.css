@@ -1,0 +1,65 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 60px; /* Adjust based on your navbar's height */
+    height: calc(100vh - 60px);
+    width: 50px; /* Initial collapsed width */
+    background-color: #34495e; /* Dark slate gray */
+    color: white;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1000;
+    border-top-right-radius: 15px;
+  }
+  
+  .collapsed {
+    width: 50px; /* Only show icons when collapsed */
+  }
+  
+  .sidebar:not(.collapsed) {
+    width: 250px; /* Expanded width */
+  }
+  
+  .chapter-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.5s ease;
+    position: relative;
+  }
+  
+  .chapter-link:hover {
+    background-color: #2ecc71; /* Darker green for better visibility */
+    transform: scale(1.1);
+  }
+  
+  .chapter-icon {
+    margin-right: 10px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: 60px; /* Horizontal bar for mobile */
+      top: 0;
+      left: 0;
+      flex-direction: row;
+      overflow-x: scroll;
+    }
+    .collapsed {
+      width: 100%;
+    }
+    .chapter-link {
+      flex: 1;
+      justify-content: center;
+    }
+  }
+  

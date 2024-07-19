@@ -1,0 +1,17 @@
+.heading-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .heading-container h1 {
+    color: #333;
+    font-size: 2rem; 
+  }
+  
+  .heading-container p {
+    color: #666;
+    font-size: 1.2rem; 
+    max-width: 80%;
+    margin: auto;  
+  }
+  

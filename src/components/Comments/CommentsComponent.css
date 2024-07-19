@@ -1,0 +1,57 @@
+.comments-section {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue, clear sky-like */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-input, .reply-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-submit, .reply-submit {
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: #123456; /* Deep blue */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-submit:hover, .reply-submit:hover {
+    background-color: #0d2235;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eef;
+    border-radius: 4px;
+}
+
+.likes {
+    display: inline-flex;
+    align-items: center;
+    color: #123456;
+}
+
+.like-icon {
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 1.2em; /* Adjust size as needed */
+}
+
+.reply {
+    padding-left: 20px;
+    color: #666;
+}
