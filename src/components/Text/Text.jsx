@@ -6,7 +6,7 @@ const Text = ({ title, text, text2, image }) => {
     <div className="supplementary-text">
       <h2>{title}</h2>
       <p>{text}</p>
-      <img src={image} height={300} width={300} alt="image"/>
+      <img src={image} height={300} width={300} />
       <p>{text2}</p>
     </div>
   );
