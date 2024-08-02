@@ -12,8 +12,8 @@ const Navbar = () => {
         <Link to="/" className="logo">Қызықты Химия платформасы</Link>
       </div>
       <nav className="nav-links">
-        <Link to="/contact" className="nav-link">Бізбен байланысу</Link>
-        <Link to="/profile" className="nav-link">Авторизация</Link>
+        <a href="/contact" className="nav-link">Бізбен байланысу</a>
+        <a href="/profile" className="nav-link">Профиль</a>
       </nav>
     </header>
   );

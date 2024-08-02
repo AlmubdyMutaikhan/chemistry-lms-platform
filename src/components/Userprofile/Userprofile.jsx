@@ -3,21 +3,21 @@ import './Userprofile.css';
 import UserProgressChart from '../ChemStruct/Chart';
 const UserProfile = () => {
     const userInfo = {
-        name: "Ерболат Кәрімов",
+        name: "Салтанат Кәрімқызы",
         bio: "Химияға қызығушылық танытатын студент, энергетикалық химия саласында білімін тереңдетуде.",
         progressData: [
-            { date: '2023-01-01', score: 75 },
+            { date: '2024-01-01', score: 75 },
             { date: '2023-02-01', score: 85 },
-            { date: '2023-03-01', score: 95 }
+            { date: '2022-03-01', score: 95 }
         ],
         achievements: [
             "National Chemistry Award 2023",
             "Completed Advanced Organic Chemistry Course"
         ],
-        favoriteElements: ["Oxygen", "Carbon", "Nitrogen"],
+        favoriteElements: ["Оттегі", "Сутек", "Литий"],
         recentActivities: [
-            "Completed 'Organic Chemistry' course - May 1, 2023",
-            "Attended webinar on 'Molecular Bonds' - April 25, 2023"
+            "Органикалық химия сабағын ұйымдастыру тренингі, 2024",
+            "Химия негіздері курсы, 2023"
         ]
     };
 
