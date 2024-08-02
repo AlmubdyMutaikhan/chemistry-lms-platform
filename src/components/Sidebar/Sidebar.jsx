@@ -44,15 +44,16 @@ const Sidebar = () => {
 
 
 
-  const handleClick = (chapter) => {
-    navigate(`/chapter/${chapter.id}`);
-  }
+  const handleClick = (event, chapter) => {
+    event.stopPropagation();
+    window.location.href = `/chapter/${chapter.id}`
+  };
 
 
   return (
     <div ref={sidebarRef} className={`sidebar ${collapsed ? 'collapsed' : ''}`} onClick={toggleSidebar}>
       {chapters.map(chapter => (
-        <div key={chapter.id} className="chapter-link" onClick={() => handleClick(chapter)}>
+        <div key={chapter.id} className="chapter-link" onClick={(e) => handleClick(e, chapter)}>
           <FontAwesomeIcon icon={chapter.icon} className="chapter-icon" />
           {!collapsed && <span>{`Chapter ${chapter.id}: ${chapter.name}`}</span>}
         </div>

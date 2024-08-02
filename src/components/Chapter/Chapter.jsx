@@ -3,9 +3,15 @@ import Text from '../Text/Text';
 import QuizComponent from '../Quizz/Quizz';
 import HeadingComponent from '../Heading/Heading';
 import Comment from '../Comments/Comments';
-import { chapter2 } from '../../data/chapters';
+import { chapters } from '../../data/chapters';
+import { useParams } from 'react-router-dom';
 const Chapter= () => {
-    const chapterData = chapter2;
+    const params = useParams();
+    if(params.id == 1) {
+        window.location.href = '/'
+    }
+    let chapterData = chapters[parseInt(params.id) - 1];
+    
     return (
         <div className="atomic-structure-container">
             <HeadingComponent
