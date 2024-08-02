@@ -9,12 +9,11 @@ const Navbar = () => {
     <header className="navbar">
       <div className="navbar-brand">
         <FontAwesomeIcon icon={faVial} className="logo-icon" />
-        <Link to="/" className="logo">ChemAcademy</Link>
+        <Link to="/" className="logo">Қызықты Химия платформасы</Link>
       </div>
       <nav className="nav-links">
-        <Link to="/change-language" className="nav-link">Change Language</Link>
-        <Link to="/sign-in" className="nav-link">Sign In</Link>
-        <Link to="/contact" className="nav-link">Contact</Link>
+        <Link to="/contact" className="nav-link">Бізбен байланысу</Link>
+        <Link to="/profile" className="nav-link">Авторизация</Link>
       </nav>
     </header>
   );

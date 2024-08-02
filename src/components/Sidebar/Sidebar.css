@@ -2,7 +2,8 @@
     position: fixed;
     left: 0;
     top: 60px; /* Adjust based on your navbar's height */
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
+    height: auto;
     width: 50px; /* Initial collapsed width */
     background-color: #34495e; /* Dark slate gray */
     color: white;
@@ -10,6 +11,7 @@
     overflow: hidden;
     z-index: 1000;
     border-top-right-radius: 15px;
+    margin-bottom: 50px;
   }
   
   .collapsed {
@@ -21,6 +23,7 @@
   }
   
   .chapter-link {
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 10px;

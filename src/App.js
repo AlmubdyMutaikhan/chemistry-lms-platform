@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
 import AtomicStructure from './components/AtomicStructure/AtomicStructure';
 import UserProfile from './components/Userprofile/Userprofile';
+import Chapter from './components/Chapter/Chapter';
 // import HomePage from './pages/HomePage';
 // import CoursePage from './pages/CoursePage';
 // import DashboardPage from './pages/DashboardPage';
@@ -16,8 +17,7 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path="/" element={<AtomicStructure />} />
-        <Route path="/courses" element={<h1>Course</h1>} />
-        <Route path="/dashboard" element={<h1>Dashboard</h1>} />
+        <Route path="/chapter/:id" element={<Chapter />} />
         <Route path='/profile' element={<UserProfile />} />
       </Routes>
     </Router>
