@@ -1,5 +1,4 @@
 import React from 'react';
-import ThreeDAnimation from '../ThreeD/ThreeD'; // Assume this is the Three.js component created previously
 import Text from '../Text/Text';
 import QuizComponent from '../Quizz/Quizz';
 import HeadingComponent from '../Heading/Heading';
