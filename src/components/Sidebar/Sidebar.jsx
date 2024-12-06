@@ -8,16 +8,16 @@ import {
 import './Sidebar.css';  // CSS file for styling
 
 const chapters = [
-  { id: 1, name: "Атомдық Құрылым", icon: faAtom },
-  { id: 2, name: "Периодтық Кесте және Элементтердің Қасиеттері", icon: faFlask },
-  { id: 3, name: "Иондық Байланыс", icon: faCubes },
-  { id: 4, name: "Ковалентті Байланыс", icon: faBong },
-  { id: 5, name: "Металдық Байланыс", icon: faBurn },
-  { id: 6, name: "Молекулалық Геометрия және VSEPR Теориясы (Электрондық Жұптың Шеткі Қабықты Өзара Қуаты)", icon: faVial },
-  { id: 7, name: "Аралық Молекулалық Күштер", icon: faTemperatureHigh },
-  { id: 8, name: "Химиялық Реакциялар және Теңдеулер", icon: faBalanceScale },
-  { id: 9, name: "Заттардың Күйлері және Өзгерістер", icon: faTint },
-  { id: 10, name: "Ерітінділер және Ерігіштік", icon: faGlobe }
+  { id: 1, name: "Атомдық құрылым", icon: faAtom },
+  { id: 2, name: "Периодтық кесте және элементтердің қасиеттері", icon: faFlask },
+  { id: 3, name: "Иондық байланыс", icon: faCubes },
+  { id: 4, name: "Ковалентті байланыс", icon: faBong },
+  { id: 5, name: "Металдық байланыс", icon: faBurn },
+  { id: 6, name: "Молекулалық геометрия және VSEPR теориясы (электрондық жұптың шеткі қабықты өзара қуаты)", icon: faVial },
+  { id: 7, name: "Молекулалық аралық күштер", icon: faTemperatureHigh },
+  { id: 8, name: "Химиялық реакциялар және теңдеулер", icon: faBalanceScale },
+  { id: 9, name: "Заттардың күйлері және өзгерістер", icon: faTint },
+  { id: 10, name: "Ерітінділер және еригіштік", icon: faGlobe }
 ];
 
 
