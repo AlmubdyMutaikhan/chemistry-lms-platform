@@ -22,7 +22,7 @@ const images  = [
 
 const Chapter= () => {
     const params = useParams();
-    if(params.id == 1) {
+    if(params.id === 1) {
         window.location.href = '/'
     }
     let chapterData = chapters[parseInt(params.id) - 1];
