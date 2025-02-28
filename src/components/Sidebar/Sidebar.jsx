@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAtom, faFlask, faCubes, faBong, faBurn, faVial,
-  faTemperatureHigh, faBalanceScale, faTint, faGlobe
+  faGlobe
 } from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css';  // CSS file for styling
 
