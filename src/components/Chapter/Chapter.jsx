@@ -9,7 +9,7 @@ import { useParams } from 'react-router-dom';
 const images  = [
     'https://zharar.com/uploads/posts/2020-07/1596210798_himijal.jpg',
     'https://zharar.com/uploads/posts/2020-07/1596210798_himijal.jpg',
-    'https://avatars.mds.yandex.net/i?id=b3ae3fe94eec23ae7d81d0e84ca2b667_l-4578587-images-thumbs&n=13',
+    'https://avatars.mds.yandex.net/i?id=e251bd3a68a5bd7ac5c2c2e49b8794715b8f999f-4198214-images-thumbs&n=13',
     'https://avatars.mds.yandex.net/i?id=1910add4cd9d3f567979ac13c79840fb4d4a623c-5284061-images-thumbs&n=13',
     'https://cdn.britannica.com/29/7529-050-9B1F15DF/VSEPR-electron-pair-arrangements-shapes.jpg',
     'https://avatars.mds.yandex.net/i?id=a493df62ae12c121d15b8cafd428c6b5_l-9152477-images-thumbs&n=13',

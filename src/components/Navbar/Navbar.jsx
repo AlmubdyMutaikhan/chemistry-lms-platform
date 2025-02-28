@@ -9,7 +9,7 @@ const Navbar = () => {
     <header className="navbar">
       <div className="navbar-brand">
         <FontAwesomeIcon icon={faVial} className="logo-icon" />
-        <Link to="/" className="logo">Қызықты Химия платформасы</Link>
+        <Link to="/" className="logo">Химиялық байланыстар</Link>
       </div>
       <nav className="nav-links">
         <a href="/contact" className="nav-link">Бізбен байланысу</a>

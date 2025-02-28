@@ -14,10 +14,10 @@ const chapters = [
   { id: 4, name: "Ковалентті байланыс", icon: faBong },
   { id: 5, name: "Металдық байланыс", icon: faBurn },
   { id: 6, name: "Молекулалық геометрия және VSEPR теориясы (электрондық жұптың шеткі қабықты өзара қуаты)", icon: faVial },
-  { id: 7, name: "Молекулалық аралық күштер", icon: faTemperatureHigh },
-  { id: 8, name: "Химиялық реакциялар және теңдеулер", icon: faBalanceScale },
-  { id: 9, name: "Заттардың күйлері және өзгерістер", icon: faTint },
-  { id: 10, name: "Ерітінділер және еригіштік", icon: faGlobe }
+  // { id: 7, name: "Молекулалық аралық күштер", icon: faTemperatureHigh },
+  // { id: 8, name: "Химиялық реакциялар және теңдеулер", icon: faBalanceScale },
+  // { id: 9, name: "Заттардың күйлері және өзгерістер", icon: faTint },
+  { id: 7, name: "Ерітінділер және еригіштік", icon: faGlobe }
 ];
 
 
@@ -55,7 +55,7 @@ const Sidebar = () => {
       {chapters.map(chapter => (
         <div key={chapter.id} className="chapter-link" onClick={(e) => handleClick(e, chapter)}>
           <FontAwesomeIcon icon={chapter.icon} className="chapter-icon" />
-          {!collapsed && <span>{`Chapter ${chapter.id}: ${chapter.name}`}</span>}
+          {!collapsed && <span>{`Бөлім-${chapter.id}: ${chapter.name}`}</span>}
         </div>
       ))}
     </div>

@@ -58,10 +58,10 @@ const chapter3 = {
     text: "Иондық байланыс элементтер арасындағы күшті әрі берік химиялық байланыс түрі. Бұл байланыс метал және аметал арасында орналасқан, мұнда электрондар металдан аметалға толық беріледі.",
   },
   modelViewer: {
-    src: "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_en.html",
+    src: "https://www.youtube.com/embed/ygeC3xHuvmg",
     width: "100%",
     height: "600",
-    title: "Interactive ionic bonding model",
+    title: "Understand Ionic Bond in Animated way",
   },
   textContent: {
     title: "Иондық байланыс туралы түсінік және дәлелдемесі",
