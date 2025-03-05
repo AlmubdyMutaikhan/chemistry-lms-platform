@@ -1,5 +1,6 @@
 import React from 'react';
 import './Landing.css';
+import { Link } from 'react-router-dom';
 
 const ChemistryLandingPage = () => {
   return (
@@ -31,7 +32,7 @@ const ChemistryLandingPage = () => {
       </div>
 
       <div className="landing-footer">
-        <a href="#start">Дайынсың ба? Онда бастайық!</a>
+        <Link to='/chapter/1'>Дайынсың ба? Онда бастайық!</Link>
       </div>
     </div>
   );
