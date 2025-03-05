@@ -1,0 +1,139 @@
+/* ChemistryInteractionPage.css */
+
+:root {
+    --dark-blue: #044ece;
+    --green: #1abc9c;
+    --light-gray: #f5f7fa;
+    --text-gray: #6C757D;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--light-gray);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .interaction-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .interaction-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  h1, h2, h3 {
+    color: var(--dark-blue);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+  }
+  
+  p, li {
+    color: var(--text-gray);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li::marker {
+    color: var(--green);
+  }
+  
+  .example {
+    margin-top: 15px;
+    padding: 12px;
+    background: var(--light-gray);
+    border-left: 4px solid var(--green);
+    border-radius: 6px;
+  }
+  
+  .banner-image, .diagram-image {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .banner-image:hover, .diagram-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .cta a {
+    display: inline-block;
+    color: white;
+    background: var(--dark-blue);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .cta a:hover {
+    background: var(--green);
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .interaction-container {
+      margin: 50px 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .interaction-container {
+      margin: 30px 20px;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    p, li {
+      font-size: 14px;
+    }
+  }
+  

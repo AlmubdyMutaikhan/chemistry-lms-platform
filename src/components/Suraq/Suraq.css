@@ -1,0 +1,114 @@
+.quiz-container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    color: var(--dark-blue);
+    text-align: center;
+  }
+  
+  .question-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: var(--text-gray);
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option-button {
+    padding: 12px 20px;
+    background-color: white;
+    border: 2px solid var(--dark-blue);
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: var(--dark-blue);
+    color: white;
+  }
+  
+  .option-button.selected {
+    background-color: var(--green);
+    color: white;
+  }
+  
+  .option-button.correct {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  .option-button.incorrect {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .submit-btn, .next-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: var(--dark-blue);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover, .next-btn:hover {
+    background-color: var(--green);
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .correct-answer {
+    color: var(--green);
+  }
+  
+  .incorrect-answer {
+    color: #e74c3c;
+  }
+  
+  .quiz-end {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--dark-blue);
+  }
+  
+  @media (max-width: 768px) {
+    .quiz-container {
+      padding: 20px;
+    }
+  
+    .question-text {
+      font-size: 16px;
+    }
+  
+    .option-button {
+      font-size: 14px;
+    }
+  
+    .submit-btn, .next-btn {
+      font-size: 14px;
+    }
+  }
+  
