@@ -22,7 +22,7 @@ const chapters = [
   // { id: 7, name: "Молекулалық аралық күштер", icon: faTemperatureHigh },
   // { id: 8, name: "Химиялық реакциялар және теңдеулер", icon: faBalanceScale },
   // { id: 9, name: "Заттардың күйлері және өзгерістер", icon: faTint },
-  { id: 8, name: "Ерітінділер және еригіштік", icon: faGlobe }
+  { id: 10, name: "Ерітінділер және ерігіштік", icon: faGlobe }
 ];
 
 

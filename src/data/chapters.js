@@ -1,5 +1,5 @@
-const chapter2 = {
-  id: 2,
+const chapter5 = {
+  id: 5,
   name: "Периодтық кесте және элементтердің қасиеттері",
   heading: {
     title: "Периодтық кесте және элементтердің қасиеттері",
@@ -208,7 +208,7 @@ const chapter4 = {
   ],
 };
 
-const chapter5 = {
+const chapter51 = {
   id: 5,
   name: "Металдық байланыс",
   heading: {
@@ -553,14 +553,14 @@ const chapter10 = {
 
 const chapters = [
   null,
-  chapter2,
-  chapter3,
   chapter4,
-  chapter5,
   chapter6,
   chapter7,
-  chapter8,
-  chapter9,
+  chapter5,
+  chapter3,
+  chapter4,
+  chapter51,
+  chapter6,
   chapter10,
 ];
 
