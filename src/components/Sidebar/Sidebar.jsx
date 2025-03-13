@@ -22,7 +22,13 @@ const chapters = [
   // { id: 7, name: "Молекулалық аралық күштер", icon: faTemperatureHigh },
   // { id: 8, name: "Химиялық реакциялар және теңдеулер", icon: faBalanceScale },
   // { id: 9, name: "Заттардың күйлері және өзгерістер", icon: faTint },
-  { id: 10, name: "Ерітінділер және ерігіштік", icon: faGlobe }
+  { id: 10, name: "Ерітінділер және ерігіштік", icon: faGlobe },
+  { id: 11, name: "Коваленттік байланыс дегеніміз не?", icon: faGlobe },
+  { id: 12, name: "Иондық байланыс дегеніміз не?", icon: faGlobe },
+  { id: 13, name: "Металдық байланыс дегеніміз не?", icon: faGlobe },
+  { id: 14, name: "Сутектік байланыс дегеніміз не?", icon: faGlobe },
+  { id: 15, name: "Ван-дер-ваальс күштері және молекулааралық байланыстар ", icon: faGlobe },
+  
 ];
 
 

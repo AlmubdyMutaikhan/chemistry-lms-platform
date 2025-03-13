@@ -10,10 +10,11 @@ import ChemistryLandingPage from './components/Landing/Landing';
 import ChemistryInteractionPage from './components/ChemBond/ChemBond';
 import BondingMechanisms from './components/ChemBond2/ChemBond';
 import BondStrengthPage from './components/Bonds/Bonds';
-// import HomePage from './pages/HomePage';
-// import CoursePage from './pages/CoursePage';
-// import DashboardPage from './pages/DashboardPage';
-// import NavigationBar from './components/NavigationBar';
+import CovalentBondPage from './components/Covalent/Covalent';
+import IonicBondPage from './components/Chapter12/Chapter12';
+import MetallicBondPage from './components/Chapter13/Chapter13';
+import HydrogenBondPage from './components/Chapter14/Chapter14';
+import VanDerWaalsBondPage from './components/Chapter15/Chapter15';
 
 function App() {
   return (
@@ -26,6 +27,11 @@ function App() {
         <Route path="/chapter/2" element={<ChemistryInteractionPage />} />
         <Route path="/chapter/3" element={<BondingMechanisms />} />
         <Route path="/chapter/4" element={<BondStrengthPage />} />
+        <Route path="/chapter/11" element={<CovalentBondPage />} />
+        <Route path="/chapter/12" element={<IonicBondPage />} />
+        <Route path="/chapter/13" element={<MetallicBondPage />} />
+        <Route path="/chapter/14" element={<HydrogenBondPage />} />
+        <Route path="/chapter/15" element={<VanDerWaalsBondPage />} />
         <Route path="/chapter/:id" element={<Chapter />} />
         <Route path='/profile' element={<UserProfile />} />
         <Route path='/contact' element={<ContactPage />} />
