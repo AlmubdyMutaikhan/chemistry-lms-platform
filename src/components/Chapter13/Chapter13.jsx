@@ -33,6 +33,14 @@ export default function MetallicBondPage() {
         }
     ];
     
+
+  const modelViewer = {
+    src: "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_en.html",
+    width: "100%",
+    height: "600",
+    title: "Interactive build an atom simulation",
+  };
+
   return (
     <div className="metallic-bond-container">
       <h1>⚙️ МЕТАЛДЫҚ БАЙЛАНЫС ДЕГЕНІМІЗ НЕ?</h1>
@@ -53,6 +61,15 @@ export default function MetallicBondPage() {
         <li>Cu (мыс), Fe (темір), Al (алюминий)</li>
         <li>→ Электрондар металл атомдары арасында еркін қозғалады.</li>
       </ul>
+
+      <div>
+                <iframe
+                    src={modelViewer.src}
+                    width={'100%'}
+                    height={modelViewer.height}
+                    title={modelViewer.title}
+                />
+      </div>
 
       <h2>⚙️ МЕТАЛДЫҚ БАЙЛАНЫСТЫҢ ҚАСИЕТТЕРІ</h2>
       <table>
@@ -85,6 +102,8 @@ export default function MetallicBondPage() {
           </tr>
         </tbody>
       </table>
+
+      <img style={{marginTop: 20}} src='https://avatars.mds.yandex.net/i?id=88557a0daf42b32d53512e367e4dd50e_l-4406655-images-thumbs&n=13' width='100%' />
       
       <h2>🔩 МЕТАЛДЫҚ БАЙЛАНЫСТЫҢ ҚОЛДАНЫЛУЫ</h2>
       <ul>

@@ -62,7 +62,13 @@ export default function CovalentBondPage() {
       ];
       
 
-      
+    const modelViewer = {
+        src: "https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html",
+        width: "100%",
+        height: "600",
+        title: "Interactive covalent bonding model",
+    };
+
   return (
     <div className="covalent-bond-container">
       <h1>🔬 КОВАЛЕНТТІК БАЙЛАНЫС ДЕГЕНІМІЗ НЕ?</h1>
@@ -76,6 +82,16 @@ export default function CovalentBondPage() {
         <li>Электртерістілік айырмашылығы 0 – 1.7 аралығында</li>
         <li>Молекулалар, газдар, сұйықтар, кейбір қатты заттар түзеді</li>
       </ul>
+
+      <div>
+                <iframe
+                    src={modelViewer.src}
+                    width='100%'
+                    height={modelViewer.height}
+                    title={modelViewer.title}
+                />
+      </div>
+
       <h3>📌 Мысалдар:</h3>
       <ul>
         <li>H₂ (сутек молекуласы): H• + •H → H:H</li>
@@ -109,6 +125,7 @@ export default function CovalentBondPage() {
         <li>HCl → H:Cl (Cl электронын көбірек тартады)</li>
         <li>H₂O → H:O:H (оттегі сутектен электртерістігі жоғары)</li>
         <li>NH₃ (аммиак) → H:N:H:H</li>
+        <img src='https://avatars.mds.yandex.net/i?id=644165df1f4afe542bd9d34bf818aa1d0e2e4c18-4211909-images-thumbs&n=13' width='100%' />
       </ul>
       
       <h2>⚛️ КОВАЛЕНТТІК БАЙЛАНЫСТЫҢ ҚАСИЕТТЕРІ</h2>

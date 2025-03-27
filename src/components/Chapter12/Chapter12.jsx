@@ -99,6 +99,10 @@ export default function IonicBondPage() {
       <p>
         Иондық байланыс – бұл электрон беру және алу арқылы түзілетін химиялық байланыс.
       </p>
+
+      <div>
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/ygeC3xHuvmg" title="Understand Ionic Bond in Animated way" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       
       <h2>✅ Негізгі ерекшеліктері:</h2>
       <ul>
@@ -107,8 +111,9 @@ export default function IonicBondPage() {
         <li>Электростатикалық тартылыс күші арқылы тұрақты байланыс түзіледі</li>
         <li>Әдетте металл + бейметалл арасында кездеседі</li>
         <li>Күшті байланыс, балқу және қайнау температурасы жоғары</li>
+        <img width='100%' height='auto' src='https://celes.club/pictures/uploads/posts/2023-06/1685621785_celes-club-p-khlorid-natriya-risunok-risunok-43.jpg' />
       </ul>
-
+      
       <h3>📌 Мысал:</h3>
       <ul>
         <li>NaCl (натрий хлориді, ас тұзы)</li>

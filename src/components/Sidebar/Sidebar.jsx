@@ -15,14 +15,14 @@ const chapters = [
   { id: 3, name: "Химиялық байланыс түзілу механизмдері", icon: faBorderAll },
   { id: 4, name: "Барлық байланыстардың күші бірдей ме?", icon: faBorderAll },
   { id: 5, name: "Периодтық кесте және элементтердің қасиеттері", icon: faFlask },
-  { id: 6, name: "Иондық байланыс", icon: faCubes },
-  { id: 7, name: "Ковалентті байланыс", icon: faBong },
-  { id: 8, name: "Металдық байланыс", icon: faBurn },
-  { id: 9, name: "Молекулалық геометрия және VSEPR теориясы (электрондық жұптың шеткі қабықты өзара қуаты)", icon: faVial },
+  // { id: 6, name: "Иондық байланыс", icon: faCubes },
+  // { id: 7, name: "Ковалентті байланыс", icon: faBong },
+  // { id: 8, name: "Металдық байланыс", icon: faBurn },
+  // { id: 9, name: "Молекулалық геометрия және VSEPR теориясы (электрондық жұптың шеткі қабықты өзара қуаты)", icon: faVial },
   // { id: 7, name: "Молекулалық аралық күштер", icon: faTemperatureHigh },
   // { id: 8, name: "Химиялық реакциялар және теңдеулер", icon: faBalanceScale },
   // { id: 9, name: "Заттардың күйлері және өзгерістер", icon: faTint },
-  { id: 10, name: "Ерітінділер және ерігіштік", icon: faGlobe },
+  // { id: 10, name: "Ерітінділер және ерігіштік", icon: faGlobe },
   { id: 11, name: "Коваленттік байланыс дегеніміз не?", icon: faGlobe },
   { id: 12, name: "Иондық байланыс дегеніміз не?", icon: faGlobe },
   { id: 13, name: "Металдық байланыс дегеніміз не?", icon: faGlobe },
@@ -63,10 +63,10 @@ const Sidebar = () => {
 
   return (
     <div ref={sidebarRef} className={`sidebar ${collapsed ? 'collapsed' : ''}`} onClick={toggleSidebar}>
-      {chapters.map(chapter => (
+      {chapters.map((chapter,i) => (
         <div key={chapter.id} className="chapter-link" onClick={(e) => handleClick(e, chapter)}>
           <FontAwesomeIcon icon={chapter.icon} className="chapter-icon" />
-          {!collapsed && <span>{`Бөлім-${chapter.id}: ${chapter.name}`}</span>}
+          {!collapsed && <span>{`Бөлім-${i+1}: ${chapter.name}`}</span>}
         </div>
       ))}
     </div>
